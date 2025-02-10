@@ -12,7 +12,7 @@ class Avto:
         print(f"Narxi: {self.narxi} $\nProbeg: {self.probeg} km\nTezlik: {self.tezlik} km/s")
     def update_probeg(self,son):
         self.probeg+=son
-        print("Probeg yangilandi !\n")
+        print("Probeg yangilandi :)\n")
     def update_narx(self,son):
         self.narxi+=son
         print("Narx yangilandi !\n")
